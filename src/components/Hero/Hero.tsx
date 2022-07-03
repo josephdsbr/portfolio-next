@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from '../../../node_modules/next/link';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
@@ -9,12 +10,14 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         Welcome to <br />
-        My Personal Portfolio
+        José Santos' Portfolio
       </SectionTitle>
       <SectionText>
-        The purpuse of JavaScript Mastery is to help aspiring and stablash developers and build awesome apps
+        Experienced Software Engineer adept in all stages of advanced web development. <br /> And from <b>Pernambuco, Brazil</b>.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Link href="#projects">
+        <Button>Learn More</Button>
+      </Link>
     </LeftSection>
   </Section>
 );

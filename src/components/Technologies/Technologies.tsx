@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiJava, DiReact, DiDocker } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -16,24 +16,24 @@ const Technologies = () =>  (
       <ListItem>
         <DiReact size='3rem' />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>Experienced with <br /> React.js</ListParagraph>
+          <ListTitle>Front-End / Mobile</ListTitle>
+          <ListParagraph>Experienced with <br /> React.js, React Native, Angular</ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <DiFirebase size='3rem' />
+        <DiJava size='3rem' />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Experienced with <br />Node and Databases</ListParagraph>
+          <ListParagraph>Experienced with <br />Spring, Node.js, Kafka, (No)SQL</ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <DiZend size='3rem' />
+        <DiDocker size='3rem' />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>Experienced with <br /> Figma</ListParagraph>
+          <ListTitle>DevOps</ListTitle>
+          <ListParagraph>Experienced with <br /> Docker, Kubernetes, Jenkins, AWS</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>

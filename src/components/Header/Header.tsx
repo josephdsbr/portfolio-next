@@ -11,7 +11,7 @@ const Header = () =>  (
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20px' }}>
           <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
+          <Span>JS Portfolio</Span>
         </a>
       </Link>
     </Div1>
@@ -33,7 +33,6 @@ const Header = () =>  (
           <NavLink>About</NavLink>
         </Link>
       </li>
-
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/josephdsbr">
@@ -44,7 +43,7 @@ const Header = () =>  (
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
 
-      <SocialIcons href="https://github.com/">
+      <SocialIcons href="https://www.instagram.com/pajebr/">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
