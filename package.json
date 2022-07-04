@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start --port 3001"
   },
   "dependencies": {
     "next": "^12.2.0",

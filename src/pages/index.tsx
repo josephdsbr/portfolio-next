@@ -6,6 +6,7 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import { GetStaticProps } from 'next'
 
 const Home = () => {
   return (
@@ -21,5 +22,12 @@ const Home = () => {
     </Layout>
   );
 };
+
+export const getStaticProps: GetStaticProps = () => {
+  return {
+    props: {},
+    revalidate: 60 * 60 * 24
+  }
+}
 
 export default Home;
